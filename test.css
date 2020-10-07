@@ -1,11 +1,9 @@
-<!DOCTYPE html>
-<html>
-<head>
-<style>
- body {background-color: Cornsilk;}
-h1   {color: black;}
- h2 {color: black;}
- a href {color: black;}
-</style>
-</head>
-<body>
+body {
+  background-color: cornsilk;
+}
+h1 {
+  color: black;
+}
+p {
+  color: black;
+}
