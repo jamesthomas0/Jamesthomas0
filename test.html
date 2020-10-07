@@ -1,12 +1,18 @@
-<<!DOCTYPE html>
+<!DOCTYPE html>
 <html>
 <body>
 
-<h2>WELCOME TO MY WEB PAGE</h2>
-<p>BY James Thomas</p>
+<h2>JavaScript in Body</h2>
 
-<button type="button" onclick="document.write(5 + 6)">Try it</button>
+<p id="demo">A Paragraph.</p>
+
+<button type="button" onclick="myFunction()">Try it</button>
+
+<script>
+function myFunction() {
+  document.getElementById("demo").innerHTML = "IT WORKS.";
+}
+</script>
 
 </body>
 </html> 
-
