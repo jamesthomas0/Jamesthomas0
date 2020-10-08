@@ -21,7 +21,7 @@ body {
 
 .header {
   padding: 10px 16px;
-  background: linear-gradient(to right, black 0%, cornsilk 100%);
+  background: linear-gradient(to right, black 0%, cornsilk 95%);
   color: white;
 }
 
@@ -54,7 +54,12 @@ body {
 <div class="header" id="myHeader">
   <h2>My Portfolio</h2>
 </div>
+<p>Date/Time: <span id="datetime"></span></p>
 
+<script>
+var dt = new Date();
+document.getElementById("datetime").innerHTML = (("0"+dt.getDate()).slice(-2)) +"."+ (("0"+(dt.getMonth()+1)).slice(-2)) +"."+ (dt.getFullYear()) +" "+ (("0"+dt.getHours()).slice(-2)) +":"+ (("0"+dt.getMinutes()).slice(-2));
+</script>
 <h2></h2>
 <p>This portfolio includes:- <br> - qualifications <br> - experiance <br> - projects i have been involved in <br> - hobbies and interests.</p>
 
